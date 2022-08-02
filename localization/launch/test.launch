@@ -1,0 +1,23 @@
+<?xml version="1.0"?> 
+<launch>
+    <arg name="rviz" default="true" />
+
+    <node pkg="localization" type="poseEstimation" name="poseEstimation" >
+
+    </node>
+
+    <node pkg="localization" type="poseEstimationVisualizer" name="pose_estimation_visualizer" >
+
+    </node>
+
+
+    <node pkg="localization" type="tfBroadcaster" name="tfBroadcaster" >
+
+    </node>
+
+    <!-- <group if="$(arg rviz)">
+        <node pkg="rviz" type="rviz" name="rviz" args="-d $(find localization)/config/config.rviz" />
+    </group> -->
+
+
+</launch>
