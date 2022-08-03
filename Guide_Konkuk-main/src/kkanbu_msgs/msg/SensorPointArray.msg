@@ -1,1 +1,0 @@
-SensorPoint[] obs_info

@@ -1,5 +1,0 @@
-<launch>
-	<node pkg="kkanbu_sensor" type="kkanbu_pose" name="kkanbu_pose" output="screen">
-        <param name="initial_yaw" value="15.0" />
-    </node>
-</launch>	
