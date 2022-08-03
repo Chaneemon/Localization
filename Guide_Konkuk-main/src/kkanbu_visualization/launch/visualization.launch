@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="kkanbu_visualization" type="kkanbu_visualization" name="kkanbu_visualization"/>
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find kkanbu_visualization)/resources/kkanbu.rviz" />
+</launch>
